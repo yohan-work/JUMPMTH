@@ -1,12 +1,54 @@
-# React + Vite
+# JUMP MATCH
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun, interactive jumping game where multiple characters automatically jump to avoid obstacles. The last character surviving wins the match!
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Add multiple players by entering names separated by commas
+- Characters automatically jump at random intervals
+- Dynamic obstacle generation that players must avoid
+- Colorful character representation
+- Real-time winner determination
+- Share results with friends
+- Difficulty levels (Easy, Normal, Hard) affecting gameplay speed
+- Score system based on survival time
+- Animated visuals with smooth transitions and effects
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend Framework**: React 19
+- **Build Tool**: Vite 6
+- **Styling**: CSS with animations
+- **Development Environment**:
+  - ESLint for code quality
+  - React Hooks for state management
+  - Modern JavaScript (ES6+)
+
+## Getting Started
+
+```bash
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
+```
+
+## How to Play
+
+1. Enter player names separated by commas in the input field
+2. Select difficulty level:
+   - Easy: Slower obstacles, longer jump intervals
+   - Normal: Balanced gameplay
+   - Hard: Faster obstacles, shorter jump intervals
+3. Click "Start Game" to begin
+4. Watch as characters automatically jump to avoid obstacles
+5. Each character earns points based on survival time
+6. The last character standing wins!
+7. Share your results with friends
